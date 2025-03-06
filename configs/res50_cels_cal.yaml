@@ -1,0 +1,6 @@
+MODEL:
+  NAME: resnet50
+LOSS:
+  CLA_LOSS: crossentropylabelsmooth
+  CAL: cal
+TAG: PRCC+base_only_ce+intra_loss+proxy_triplet-seed10
